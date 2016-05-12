@@ -69,14 +69,6 @@
                             "name": "todo_id_x",
                             "paramType": "path",
                             "required": true
-                        },
-                        {
-                            "allowMultiple": false,
-                            "dataType": "boolean",
-                            "description": "The ID of the TODO item",
-                            "name": "a_bool",
-                            "paramType": "path",
-                            "required": true
                         }
                     ],
                     "summary": "Get a todo task"
