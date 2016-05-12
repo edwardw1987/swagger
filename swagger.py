@@ -2,7 +2,7 @@
 # @Author: edward
 # @Date:   2016-05-12 14:11:21
 # @Last Modified by:   edward
-# @Last Modified time: 2016-05-12 16:40:10
+# @Last Modified time: 2016-05-12 17:29:48
 from functools import partial
 
 # api = swagger.docs(Api(app), apiVersion='0.1',
@@ -40,7 +40,7 @@ class _APIs:
              description='Auto generated API docs by swagger'):
         self.API_VERSION = apiVersion
         self.SWAGGER_VERSION = swaggerVersion
-        self.BASEPATH = basePath
+        self.BASE_PATH = basePath
         self.RESOURCE_PATH = resourcePath
         self.PRODUCES = produces
         self.API_SPEC_URL = api_spec_url
